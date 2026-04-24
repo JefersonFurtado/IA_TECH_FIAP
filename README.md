@@ -69,7 +69,7 @@ O dataset e carregado via sklearn.datasets.load_breast_cancer(), sem necessidade
 ### 1. Clone o repositorio
 
 `ash
-git clone https://github.com/seu-usuario/tech-challenge-cancer.git
+git clone https://github.com/JefersonFurtado/IA_TECH_FIAP.git
 cd tech-challenge-cancer
 `
 
