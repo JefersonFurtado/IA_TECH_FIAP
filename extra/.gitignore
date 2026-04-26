@@ -1,0 +1,10 @@
+# Dataset e imagens
+CBIS-DDSM/
+
+# Modelos PyTorch
+*.pt
+*.pth
+
+# Arquivos temporários
+__pycache__/
+*.pyc

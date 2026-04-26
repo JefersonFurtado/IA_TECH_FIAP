@@ -1,0 +1,58 @@
+Dispositivo: cpu
+Mapeando imagens e rótulos...
+Amostras mapeadas : 3566
+  Malignos         : 1456
+  Benignos         : 2110
+Carregando imagens...
+Dataset: 3566 imagens
+Treino: 2424 | Val: 428 | Teste: 714
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to C:\Users\jefer/.cache\torch\hub\checkpoints\efficientnet_b0_rwightman-7f5810bc.pth
+100.0%
+Parâmetros treináveis (fase 1): 328,193
+
+── Fase 1: treinando cabeça ──
+Epoch 01 | train=0.7963 | val=0.7507 | auc=0.6974
+Epoch 02 | train=0.7784 | val=0.7414 | auc=0.7036
+Epoch 03 | train=0.7660 | val=0.7370 | auc=0.7069
+Epoch 04 | train=0.7623 | val=0.7259 | auc=0.7209
+Epoch 05 | train=0.7533 | val=0.7226 | auc=0.7306
+Epoch 06 | train=0.7514 | val=0.7445 | auc=0.7171
+Epoch 07 | train=0.7644 | val=0.7320 | auc=0.7206
+Epoch 08 | train=0.7375 | val=0.7197 | auc=0.7256
+Epoch 09 | train=0.7453 | val=0.7447 | auc=0.7180
+Epoch 10 | train=0.7486 | val=0.7177 | auc=0.7347
+
+── Fase 2: fine-tuning ──
+Epoch 01 | train=0.7377 | val=0.7125 | auc=0.7355
+Epoch 02 | train=0.7295 | val=0.7097 | auc=0.7418
+Epoch 03 | train=0.7304 | val=0.7024 | auc=0.7515
+Epoch 04 | train=0.7229 | val=0.6964 | auc=0.7534
+Epoch 05 | train=0.7226 | val=0.6983 | auc=0.7546
+Epoch 06 | train=0.7068 | val=0.6906 | auc=0.7629
+Epoch 07 | train=0.7102 | val=0.6904 | auc=0.7645
+Epoch 08 | train=0.7123 | val=0.6858 | auc=0.7626
+Epoch 09 | train=0.7055 | val=0.6871 | auc=0.7680
+Epoch 10 | train=0.7117 | val=0.6796 | auc=0.7701
+Epoch 11 | train=0.6889 | val=0.6756 | auc=0.7797
+Epoch 12 | train=0.6835 | val=0.6723 | auc=0.7789
+Epoch 13 | train=0.6954 | val=0.6767 | auc=0.7754
+Epoch 14 | train=0.6987 | val=0.6644 | auc=0.7864
+Epoch 15 | train=0.6871 | val=0.6708 | auc=0.7829
+Epoch 16 | train=0.6756 | val=0.6726 | auc=0.7816
+Epoch 17 | train=0.6872 | val=0.6720 | auc=0.7820
+Epoch 18 | train=0.6782 | val=0.6604 | auc=0.7869
+Epoch 19 | train=0.6802 | val=0.6698 | auc=0.7865
+Epoch 20 | train=0.6616 | val=0.6603 | auc=0.7929
+
+=== Avaliação no conjunto de teste ===
+              precision    recall  f1-score   support
+
+     Benigno       0.81      0.59      0.68       422
+     Maligno       0.57      0.79      0.67       292
+
+    accuracy                           0.67       714
+   macro avg       0.69      0.69      0.67       714
+weighted avg       0.71      0.67      0.67       714
+
+AUC-ROC: 0.7798
+
